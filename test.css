@@ -1,0 +1,22 @@
+h1{
+    color:fuchsia;
+    font: 15px arial, sans-serif;
+}
+
+h3{
+    font-weight: bold;
+    font-size: 2em;
+}
+
+ul{
+    list-style-type: circle;
+}
+
+body{
+    background-color: powderblue;
+}
+
+p{
+    color:teal;
+    background-color: yellowgreen;
+}
