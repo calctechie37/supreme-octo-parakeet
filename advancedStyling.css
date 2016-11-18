@@ -1,0 +1,10 @@
+@import url()
+#title{
+    text-transform: capitalize;
+}
+.list_review{
+    text-align: center;
+}
+h1{
+    text-decoration: underline;
+}

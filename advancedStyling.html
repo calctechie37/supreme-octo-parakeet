@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title id="title">list review</title>
+  </head>
+  <body>
+    <h1>Welcome to Drago's List Review Part 1!</h1>
+    <p class="list_review">
+      Use this resource to help you review how to get elements of a list in Scheme using car and cdr.<br><br>
+      
+      Firstly, a brief introduction to Scheme and list...<br>
+      - Scheme is a dialect of the language Lisp (list programming)<br>
+      - In scheme, lists are denoted with a single quote followed by an opening parenthesis, the content of the list, and a closing parenthesis<br>
+      - The quote in the beginning prevents Scheme from evaluating it with its default evaluator<br>
+      - Empty lists are written as '()<br>
+      - Each list has two parts: the part containing just the first element and the part containing the rest of the list<br>
+      - The first part of the list is known as the car and is accessible through the car operator: (car &ltlist&gt)<br>
+      &nbsp&nbsp&nbsp - Performing the car operator on a list can result in one of the following:<br>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - The first element of the list, the list has to contain at least one element<br>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - An error, this is because the argument given is an empty list<br>
+      - The second part of the list is known as the cdr and is accessible through the cdr operator: (cdr &ltlist&gt)<br>
+      &nbsp&nbsp&nbsp - Performing the cdr operator on a list can result in one of the following:<br>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - The rest of the list containing at least one element, this is when the list has at least two elements<br>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - A null list, this is when the list has only one element<br>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp - An error, this is when the list is an empty list<br><br>
+
+      Example:<br>
+      (define l &nbsp'(1 2 3))<br>
+      (car l) --&gt 1<br>
+      (cdr l) --&gt (2 3)<br>
+      
+    </p>
+    
+    <form action="direction.html" method="post">
+      <input type="submit" value="Next">
+    </form>
+
+  </body>
+</html>
