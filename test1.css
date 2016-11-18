@@ -19,3 +19,21 @@ p{
     text-align: right;
     background-color: forestgreen;
 }
+.extreme{
+    font-weight: thin;
+}
+#head1{
+    color: lightsteelblue;
+}
+.navzone{
+    background-color: forestgreen;
+}
+#tehlulz{
+    list-style-type: circle;
+}
+.content{
+    font-size: small;
+}
+.prose{
+    color: yellowgreen;
+}

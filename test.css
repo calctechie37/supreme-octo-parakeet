@@ -20,3 +20,21 @@ p{
     color:teal;
     background-color: yellowgreen;
 }
+.extreme{
+    font-weight: bold;
+}
+#head1{
+    color:forestgreen;
+}
+.navzone{
+    background-color: aquamarine;
+}
+#tehlulz{
+    list-style-type: lower-alpha;
+}
+.content{
+    font-size: 3em;
+}
+.prose{
+    font-family: "Times New Roman", Times, serif;
+}
